@@ -1,16 +1,17 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Clayton Pereira
+avatar: /static/images/perfil.jfif
+occupation: Full Stack Developer
+company: Seplag MT
+email: cpereiramt@gmail.com
+linkedin: https://www.linkedin.com/in/clayton-pereira-96071797/
+github: https://github.com/cpereiramt
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Trabalho como desenvolvedor Full Stack na Seplag MT (Secretária de Planejamento do estado de mato grosso) e também como freelancer nas horas vagas .
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+Tenho experiência e conhecimento nas seguintes tecnologias de desenvolvimento de software (Java/Spring Boot, NodeJS, javascript vanilla, ReactJS, VueJS, etc) entre outras tecnologias que aprendo por hobby ou para projetos específicos .
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+No futuro quero me aperfeicoar na área de desenvolvimento de jogos e 3d (Blender, Unreal Engine, Core, Unity3D)
+
+Irei postando aqui as minhas experiências do dia a dia como programador nas mais variadas tecnologias .

@@ -7,11 +7,11 @@ export default function AuthorLayout({ children, frontMatter }) {
 
   return (
     <>
-      <PageSeo title={`About - ${name}`} description={`About me - ${name}`} />
+      <PageSeo title={`Sobre Mim - ${name}`} description={`Sobre Mim - ${name}`} />
       <div className="divide-y">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            About
+            Sobre Mim
           </h1>
         </div>
         <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
