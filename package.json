@@ -9,7 +9,10 @@
     "serve": "next start",
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "out": "next build && next export",
+    "build-static": "next build && next export && npm run build-static-repair-index",
+    "build-static-repair-index": "replace-in-files --string \"/_next/static\" --replacement \"./_next/static\" out/index.html"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.2",
@@ -33,6 +36,7 @@
     "remark-gfm": "^1.0.0",
     "remark-math": "^4.0.0",
     "remark-slug": "6.0.0",
+    "replace-in-files-cli": "^1.0.0",
     "tailwindcss": "^2.2.2"
   },
   "devDependencies": {
