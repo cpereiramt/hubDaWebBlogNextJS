@@ -78,15 +78,11 @@ O DOM ( Document Object Model – modelo de objeto de documentos) é uma página
 
 Todos os elementos vistos até aqui têm relação em como a informação é comunicada no navegador. Já o componente XMLHttpRequest é um elemento técnico que permite que a comunicação assíncrona com o servidor ocorra. Para tanto, basta de uma função JavaScript e um código parecido com o seguinte (de forma elementar- na prática outros detalhes são necessários):
 
-```
+```js
 var xmlhttp;
-
-xmlhttp=new XMLHttpRequest ( );
-
-xmlhttp.onreadystatechange=function Trata Resposta Servidor;
-
-xmlhttp.open(“GET”,”nome\_curso servidor”,true);
-
+xmlhttp = new XMLHttpRequest ( );
+xmlhttp.onreadystatechange= function Trata Resposta Servidor;
+xmlhttp.open('GET','nome\_curso servidor',true);
 xmlhttp.send ( )
 ```
 
@@ -164,7 +160,7 @@ Com isso, iniciamos o nosso projeto, criando as classes de atributos dos livros 
 
 É a partir destas informações que será desenvolvido o CRUD (create, Retrieve, Update e Delete).
 
-```
+```java
 public class Livro implements Serializable{
 
 private Long id;
@@ -186,7 +182,7 @@ public Livro ( ) { }
 
 Posteriormente, vamos para a segunda camada de nossa aplicação, a camada de negócios, onde criaremos os métodos necessários para a classe controladora.
 
-```
+```java
 public class Apl Cadastro livros {
 
 private List lista livros = new ArrayList ( );

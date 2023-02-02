@@ -28,7 +28,7 @@ module.exports = {
           purple: '#d9a9ff',
           red: '#ff8383',
           blue: '#93ddfd',
-          white: '#fff',
+          white: 'yellow',
         },
       },
       typography: (theme) => ({
