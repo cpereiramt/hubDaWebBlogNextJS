@@ -32,7 +32,7 @@ Caso a sua experiência seja pequena, além de familiaridade, é recomendável b
 
 **Java:**
 
-```
+```JAVA
 public class OláPessoal {
 
 public static void main (string \[\] args) {
@@ -44,9 +44,9 @@ system.out.printLn (“Olá, pessoal!”);
 }
 ```
 
-```
 **Python:**
 
+```PYTHON
 print (‘Olá, pessoal!’)
 ```
 

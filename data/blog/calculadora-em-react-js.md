@@ -22,7 +22,7 @@ Na pasta “src”, criaremos um diretório chamado componentes. É aqui que cod
 
 É assim que o código vai ficar:
 
-```
+```JSX
  import React, {Component} from 'react';
 
  class ResultComponent extends Component { 
@@ -42,7 +42,7 @@ que exibe o conteúdo de apoio.
 
 Em seguida, vamos criar o componente do teclado. Nosso teclado é apenas um monte de botões que fazem algo quando clicados. Este é o código do nosso arquivo KeypadComponent.js:
 
-```
+```JSX
  import React, {Component} from 'react';
 
  class KeyPadComponent extends Component {
@@ -80,7 +80,7 @@ Vamos definir a lógica dessa função em nosso componente pai, que é App.js.
 
 No arquivo App.js, que é o pai de todos os nossos componentes anteriores e que renderiza todos os componentes principais, incluiremos todos os componentes filhos primeiro. Também incluiremos a variável "result" neste state.state que é passada para o nosso componente de resultado. Isso nos permitirá manipular a exibição.
 
-```
+```JSX
  import React, { Component } from 'react'; 
 
  import './App.css';
@@ -99,7 +99,7 @@ No arquivo App.js, que é o pai de todos os nossos componentes anteriores e que 
 
 Observe passamos o componente this.onClick para o componente do teclado, mas ainda não fizemos a atribuição. Antes de definir essa função, precisamos fazer algumas coisas. Precisamos criar funções para nossos recursos básicos da calculadora. Nesta calculadora, temos três recursos principais.
 
-```
+```JSX
 this.Calculate => Calcular o resultado da nossa expressão, isso é acionado quando o botão "=" é pressionado.
 
 this.Reset => Limpar nossa saída, isto é ativado quando "C" é pressionado.
@@ -109,7 +109,7 @@ this.Backspace => Limpar o último caractere que foi pressionado através do aci
 
 Vamos criar essas funções primeiro.
 
-```
+```JSX
 import React, { Component } from 'react'; 
 
 import './App.css'; 
@@ -134,7 +134,7 @@ class App extends Component { 
 
 Finalmente, podemos criar nossa função onClick e incluí-la em nosso arquivo App.js.
 
-```
+```JSX
  import React, { Component } from 'react';
  import './App.css'; 
  import ResultComponent from './components/ResultComponent'; 
@@ -168,13 +168,13 @@ Finalmente, você pode adicionar um pouco de CSS para torná-lo mais bonito.
 
 Primeiro, crie um arquivo chamado “index.css”. Nós vamos escrever todos os nossos códigos CSS neste arquivo. Mas antes disso, vamos incluir esse arquivo em nosso arquivo index.js para que possamos ver o efeito das alterações que estamos fazendo em nosso CSS imediatamente no navegador. Escreva a linha de código abaixo no topo do arquivo index.js:
 
-```
+```JSX
 import './index.css';
 ```
 
 Agora, vamos começar a escrever nosso CSS. A primeira coisa que faremos é definir valores padrão para todos os elementos. Escreva o código abaixo na parte superior do arquivo index.css:
 
-```
+```CSS
 \*{margin:0px;
   padding:0px;
   border-radius: 0px;
@@ -189,7 +189,7 @@ Agora, vamos começar a escrever nosso CSS. A primeira coisa que faremos é defi
 
 A próxima coisa que faremos é adicionarmos estilo ao nosso componente CalculatorTitle. No caso, nós vamos nomear o className como "título da calculadora". Então, vamos adicionar estilos usando essa classe. Vamos alinhar o título ao centro, adicionar preenchimento, margem, largura, cor de fundo, cor do texto, etc. O código abaixo é usado para estilizar o componente "CalculatorTitle:
 
-```
+```CSS
 .calculator-title{
   font-size:30px;
   background: #fff;
@@ -205,7 +205,7 @@ A próxima coisa que faremos é adicionarmos estilo ao nosso componente Calculat
 
 A próxima coisa é estilizar nossa calculadora. Adicione o código abaixo para o elemento pai com a className como “main Calc”.
 
-```
+```CSS
 .mainCalc{
   margin:0px;
   padding:0px;
@@ -216,7 +216,7 @@ A próxima coisa é estilizar nossa calculadora. Adicione o código abaixo para 
 
 Agora, vamos estilizar os campos de entrada do componente ScreenRow. O nome da classe atribuído a este elemento é "screen-row". Vamos adicionar largura, fundo, cor, preenchimento, etc. a este elemento. O código abaixo é usado para essa finalidade:
 
-```
+```CSS
 .screen-row input{
   width: 400px;
   background: #ddd;border: 0px;
@@ -227,7 +227,7 @@ Agora, vamos estilizar os campos de entrada do componente ScreenRow. O nome da c
 
 A última coisa que resta é estilizar os botões. O código abaixo é usado para estilizar os botões do aplicativo Calculadora.
 
-```
+```CSS
 input\[type="button"\]{
   width: 100px;
   background: #4CAF50;border: 1px solid #222;
