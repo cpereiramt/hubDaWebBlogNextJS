@@ -3,8 +3,8 @@ const siteMetadata = {
   author: 'Clayton Pereira',
   headerTitle: 'Hub Da Web',
   description: 'Tutorias e novidades relacionados ao desenvolvimento de software',
-  language: 'pt-br',
-  siteUrl: 'https://bg.hubdaweb.com.br',
+  language: 'pt-BR',
+  siteUrl: 'https://blog.hubdaweb.com.br',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo_hubdaweb_blog.png',
   image: '/static/images/perfil.jfif',
@@ -18,7 +18,7 @@ const siteMetadata = {
   locale: 'pt-BR',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
-    plausibleDataDomain: 'bg.hubdaweb.com.br', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    plausibleDataDomain: 'blog.hubdaweb.com.br', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
     googleAnalyticsId: 'UA-62222158-5', // e.g. UA-000000-2 or G-XXXXXXX
   },
