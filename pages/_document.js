@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 class MyDocument extends Document {
   render() {
@@ -43,8 +42,8 @@ class MyDocument extends Document {
 
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-YS9ZTQJFS8" />
           <script>
-            dataLayer = []; window.dataLayer = window.dataLayer || []; function gtag()
-            {dataLayer.push(arguments)}
+            window.dataLayer = window.dataLayer || []; function gtag()
+            {window.dataLayer.push(arguments)}
             gtag('js', new Date()); gtag('config', 'G-YS9ZTQJFS8');
           </script>
         </Head>
