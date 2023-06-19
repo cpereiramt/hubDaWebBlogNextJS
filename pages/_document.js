@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 class MyDocument extends Document {
   render() {
@@ -39,6 +40,13 @@ class MyDocument extends Document {
             crossOrigin="anonymous"
           />
           <script src="https://www.googleoptimize.com/optimize.js?id=OPT-5DFRSBX" async></script>
+
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-YS9ZTQJFS8" />
+          <script>
+            dataLayer = []; window.dataLayer = window.dataLayer || []; function gtag()
+            {dataLayer.push(arguments)}
+            gtag('js', new Date()); gtag('config', 'G-YS9ZTQJFS8');
+          </script>
         </Head>
         <body className="antialiased text-black bg-white dark:bg-gray-900 dark:text-white">
           <Main />

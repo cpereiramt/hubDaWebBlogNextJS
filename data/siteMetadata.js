@@ -18,9 +18,9 @@ const siteMetadata = {
   locale: 'pt-BR',
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
-    plausibleDataDomain: 'blog.hubdaweb.com.br', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
-    googleAnalyticsId: 'UA-62222158-5', // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
   },
   comment: {
     // Select a provider and use the environment variables associated to it
