@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
+
 class MyDocument extends Document {
   render() {
     return (
@@ -40,14 +40,6 @@ class MyDocument extends Document {
             crossOrigin="anonymous"
           />
           <script src="https://www.googleoptimize.com/optimize.js?id=OPT-5DFRSBX" async></script>
-
-          <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YS9ZTQJFS8">
-            {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-YS9ZTQJFS8')`}
-          </Script>
         </Head>
         <body className="antialiased text-black bg-white dark:bg-gray-900 dark:text-white">
           <Main />
