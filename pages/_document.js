@@ -41,9 +41,7 @@ class MyDocument extends Document {
           />
           <script src="https://www.googleoptimize.com/optimize.js?id=OPT-5DFRSBX" async></script>
 
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-YS9ZTQJFS8" />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-YS9ZTQJFS8"></script>
-          <Script>
+          <Script async src="https://www.googletagmanager.com/gtag/js?id=G-YS9ZTQJFS8">
             {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
