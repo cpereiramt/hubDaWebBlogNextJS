@@ -5,11 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1673096642606467"
-            crossOrigin="anonymous"
-          ></script>
+          <meta name="google-adsense-account" content="ca-pub-1673096642606467" />
           <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
           <link
             rel="icon"
