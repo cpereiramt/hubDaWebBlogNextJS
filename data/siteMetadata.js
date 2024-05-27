@@ -8,7 +8,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo_hubdaweb_blog.png',
   image: '/static/images/perfil.jfif',
-  socialBanner: '/static/images/logo_hubdaweb_blog.png',
+  socialBanner: '/static/images/opengraph-image.jpg',
   email: 'cpereiramt@gmail.com',
   github: 'https://github.com/cpereiramt',
   /*   twitter: 'https://twitter.com/Twitter',
