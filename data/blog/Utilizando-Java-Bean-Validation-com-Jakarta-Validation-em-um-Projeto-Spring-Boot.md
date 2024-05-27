@@ -1,7 +1,7 @@
 ---
 title: 'Utilizando Java Bean Validation com Jakarta Validation em um Projeto Spring Boot'
 date: '2024-05-10'
-tags: ['programacao', 'java']
+tags: ['java', 'spring boot']
 ---
 
 Utilizando Java Bean Validation com Jakarta Validation em um Projeto Spring Boot

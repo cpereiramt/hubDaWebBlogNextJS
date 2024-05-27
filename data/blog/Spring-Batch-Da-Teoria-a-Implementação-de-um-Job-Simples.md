@@ -1,7 +1,7 @@
 ---
 title: 'Introdução ao Spring Batch: Da Teoria à Implementação de um Job Simples'
 date: '2024-05-27'
-tags: ['java', 'spring', 'spring batch']
+tags: ['java', 'spring boot', 'spring batch']
 ---
 
 O Spring Batch é uma poderosa estrutura de processamento de lotes (batch processing) que permite a execução eficiente e escalável de tarefas de grande volume de dados. Se você está lidando com processos que envolvem a manipulação de grandes quantidades de dados, como migrações de banco de dados, geração de relatórios, ou processamento de transações, o Spring Batch pode ser uma solução ideal. Neste post, vamos explorar a teoria por trás do Spring Batch e, em seguida, criar um exemplo prático de um job simples.
