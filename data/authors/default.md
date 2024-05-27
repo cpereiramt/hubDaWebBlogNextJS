@@ -2,13 +2,13 @@
 name: Clayton Pereira
 avatar: /static/images/perfil.jfif
 occupation: Full Stack Developer
-company: Seplag MT
+company: South System/ Pagonxt
 email: cpereiramt@gmail.com
 linkedin: https://www.linkedin.com/in/clayton-pereira-96071797/
 github: https://github.com/cpereiramt
 ---
 
-Trabalho como desenvolvedor Full Stack na Seplag MT (Secretaria de Planejamento do estado de mato grosso) e também como freelancer nas horas vagas .
+Trabalho como desenvolvedor Full Stack na South System.
 
 Tenho experiência e conhecimento nas seguintes tecnologias de desenvolvimento de software (Java/Spring Boot, NodeJS, javascript vanilla, ReactJS, VueJS, etc) entre outras tecnologias que aprendo por hobby ou para projetos específicos .
 

@@ -1,9 +1,9 @@
 const projectsData = [
   {
-    title: 'Projeto Placeholder',
-    description: `Projetos em construção ........`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Portfolio WebSite',
+    description: `Todos meus projetos estarão sendo hospedados nesse site`,
+    imgSrc: '/static/images/portfolioWebPage.png',
+    href: 'https://claytonpereira.com/',
   },
 ]
 
