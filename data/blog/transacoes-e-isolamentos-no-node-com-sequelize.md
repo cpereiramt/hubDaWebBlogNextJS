@@ -8,7 +8,7 @@ tags: ['node-js', 'javascript', 'sequelize']
 
 As transações de banco de dados são um conceito fundamental para garantir a integridade e consistência dos dados em sistemas de software. Neste post, exploraremos o que são transações de banco de dados, seus níveis de isolamento e como implementá-las no Node.js com exemplos práticos. Este guia é ideal para desenvolvedores que desejam aprofundar seu conhecimento em transações e melhorar a confiabilidade de suas aplicações.
 
-### **O Que São Transações de Banco de Dados?**
+### O Que São Transações de Banco de Dados?
 
 Uma transação de banco de dados é uma sequência de operações executadas como uma única unidade lógica de trabalho. As transações seguem o princípio ACID, que significa:
 
@@ -17,7 +17,7 @@ Uma transação de banco de dados é uma sequência de operações executadas co
 - **Isolamento**: As operações dentro de uma transação são isoladas de outras transações simultâneas.
 - **Durabilidade**: Uma vez que uma transação é confirmada, suas mudanças são permanentes, mesmo em caso de falhas no sistema.
 
-### **Níveis de Isolamento**
+### Níveis de Isolamento
 
 Os níveis de isolamento determinam o grau de visibilidade das operações de uma transação para outras transações concorrentes. Existem quatro níveis principais de isolamento:
 
@@ -26,11 +26,11 @@ Os níveis de isolamento determinam o grau de visibilidade das operações de um
 3. **Repeatable Read**: Assegura que, se uma transação lê um dado, outras transações não podem modificar esse dado até que a primeira transação seja concluída. Evita leituras sujas e leituras não repetíveis.
 4. **Serializable**: O nível mais alto de isolamento, onde transações são completamente isoladas umas das outras. Previne leituras sujas, leituras não repetíveis e fenômenos fantasmas.
 
-### **Implementando Transações no Node.js**
+### Implementando Transações no Node.js
 
 Para implementar transações no Node.js, vamos utilizar o **`sequelize`**, uma biblioteca popular para ORM (Object-Relational Mapping). Abaixo está um exemplo prático de como criar e gerenciar transações utilizando o Sequelize.
 
-### **Configuração Inicial**
+### Configuração Inicial
 
 Você pode instalar o banco de sua preferência ou até mesmo usar docker para endereçar essa dependência, por exemplo nesse caso precisaremos do arquivo docker-compose.yml abaixo :
 
@@ -72,7 +72,7 @@ const sequelize = new Sequelize('database', 'username', 'password', {
 })
 ```
 
-### **Criando um Modelo**
+### Criando um Modelo
 
 Vamos criar um modelo simples para ilustrar as transações:
 
@@ -89,7 +89,7 @@ const User = sequelize.define('User', {
 })
 ```
 
-### **Utilizando Transações**
+### Utilizando Transações
 
 Agora, vamos ver como utilizar transações no Sequelize:
 
@@ -123,7 +123,7 @@ async function createUserTransaction() {
 createUserTransaction()
 ```
 
-### **Escolhendo o Nível de Isolamento**
+### Escolhendo o Nível de Isolamento
 
 No Sequelize, você pode especificar o nível de isolamento ao iniciar uma transação:
 
@@ -163,7 +163,7 @@ createUserWithIsolation()
 
 [exemplo para consulta](https://github.com/cpereiramt/javascript-review/tree/main/DBS/transactions-isolation)
 
-### **Conclusão**
+### Conclusão
 
 Transações de banco de dados e níveis de isolamento são componentes essenciais para garantir a integridade e consistência dos dados em uma aplicação. Com o Sequelize, gerenciar transações no Node.js se torna uma tarefa relativamente simples. Lembre-se de escolher o nível de isolamento apropriado para sua aplicação para balancear entre desempenho e consistência dos dados.
 
