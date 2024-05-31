@@ -147,5 +147,6 @@ Por meio dos exemplos de código fornecidos, esperamos que você tenha uma compr
 ### Referências
 
 1. [Biblioteca async-mutex no npm](https://www.npmjs.com/package/async-mutex)
+2. [Repositório com exemplos](https://github.com/cpereiramt/javascript-review/tree/main/Threads/Semaphores)
 
 Esse post foi projetado para fornecer uma visão abrangente sobre semáforos em NodeJS, com exemplos práticos e detalhados. Esperamos que você tenha encontrado este conteúdo útil e encorajador para suas implementações de controle de concorrência.
