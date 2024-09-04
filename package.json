@@ -37,6 +37,7 @@
     "remark-math": "^4.0.0",
     "remark-slug": "6.0.0",
     "replace-in-files-cli": "^1.0.0",
+    "tailwind-nextjs-starter-blog": "file:",
     "tailwindcss": "^2.2.2"
   },
   "devDependencies": {
