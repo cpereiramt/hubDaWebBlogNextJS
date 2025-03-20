@@ -11,7 +11,7 @@ module.exports = withBundleAnalyzer({
   },
   images: {
     loader: 'akamai',
-    path: '',
+    path: '.',
   },
   webpack: (config, { dev, isServer }) => {
     config.module.rules.push({
