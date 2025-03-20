@@ -4,11 +4,16 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-
+import { getPostsFromCache, setPostsInCache } from '@/lib/utils/posts-cache'
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
-  const posts = await getAllFilesFrontMatter('blog')
+  let posts = getPostsFromCache()
+
+  if (!posts) {
+    posts = await getAllFilesFrontMatter('blog')
+    setPostsInCache(posts) // Salva na memória
+  }
 
   return { props: { posts } }
 }
