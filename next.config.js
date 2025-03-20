@@ -10,8 +10,9 @@ module.exports = withBundleAnalyzer({
     dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
   },
   images: {
-    loader: 'akamai',
-    path: '.',
+    domains: ['localhost', 'hubdaweb.com.br'], // Se estiver usando um domínio, adicione aqui
+    loader: 'default',
+    path: '/_next/image',
   },
   webpack: (config, { dev, isServer }) => {
     config.module.rules.push({
