@@ -1,6 +1,6 @@
 ---
 name: Clayton Pereira
-avatar: /static/images/perfil.jfif
+avatar: /static/images/profile_image.png
 occupation: Full Stack Developer
 company: South System/ Pagonxt
 email: cpereiramt@gmail.com

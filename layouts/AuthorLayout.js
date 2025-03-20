@@ -1,5 +1,5 @@
 import SocialIcon from '@/components/social-icons'
-import Image from '@/components/Image'
+import Image from 'next/image'
 import { PageSeo } from '@/components/SEO'
 
 export default function AuthorLayout({ children, frontMatter }) {
@@ -19,9 +19,9 @@ export default function AuthorLayout({ children, frontMatter }) {
             <Image
               src={avatar}
               alt="avatar"
-              width="192px"
-              height="192px"
-              className="w-48 h-48 rounded-full"
+              width="320"
+              height="480"
+              className="w-90 h-90 rounded-full"
             />
             <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">{name}</h3>
             <div className="text-gray-500 dark:text-gray-400">{occupation}</div>
