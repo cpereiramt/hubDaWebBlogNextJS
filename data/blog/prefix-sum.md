@@ -14,9 +14,9 @@ Neste artigo, vamos abordar a teoria por trás do Prefix Sum, como ele funciona,
 
 Um **Prefix Sum** de um array é um novo array onde cada elemento na posição \(i\) é a soma de todos os elementos do array original até a posição \(i\). Ou seja, para um array \(A = [a_1, a_2, a_3,..., a_n]\), o array de Prefix Sum \(P\) será:
 
-$$
-P_i = \sum_{j=1}^{i} A_j
-$$
+\[
+P*i = \sum*\{j=1\}^\{i\} A_j
+\]
 
 Além disso, o array de Prefix Sum geralmente tem um elemento a mais no início, que é 0, para facilitar cálculos de somas em subarrays.
 
@@ -60,7 +60,7 @@ Uma das principais aplicações do Prefix Sum é calcular a soma dos elementos d
 
 A fórmula para calcular a soma de um subarray usando o array de Prefix Sum \(P\) é:
 
-$$(A[l:r]) = P[r+1] - P[l]$$
+\[(A[l:r]) = P[r+1] - P[l]\]
 
 Essa técnica é extremamente poderosa quando precisamos fazer várias consultas sobre o mesmo array, já que o tempo de consulta é reduzido drasticamente.
 
@@ -68,7 +68,7 @@ Essa técnica é extremamente poderosa quando precisamos fazer várias consultas
 
 Se tivermos \(A = [1, 2, 3, 4, 5]\) e queremos calcular a soma dos elementos \(A[2:4]\) (ou seja, \(A_2 = 3\), \(A_3 = 4\) e \(A_4 = 5\)), podemos usar o array de Prefix Sum \(P = [0, 1, 3, 6, 10, 15]\):
 
-$$(A[2:4]) = P[5] - P[2] = 15 - 3 = 12$$
+\[(A[2:4]) = P[5] - P[2] = 15 - 3 = 12\]
 
 Com isso, conseguimos calcular a soma dos elementos de um subarray em tempo constante.
 

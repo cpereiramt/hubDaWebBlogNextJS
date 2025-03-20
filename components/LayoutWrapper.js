@@ -19,8 +19,8 @@ const LayoutWrapper = ({ children }) => {
                   <Image
                     src={'/static/images/logo_hubdaweb_blog.png'}
                     alt="Logo do Site"
-                    width="100px"
-                    height="100px"
+                    width="100"
+                    height="100"
                   />
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
