@@ -10,6 +10,7 @@ module.exports = withBundleAnalyzer({
     dirs: ['pages', 'components', 'lib', 'layouts', 'scripts'],
   },
   images: {
+    unoptimized: true,
     domains: ['localhost', 'hubdaweb.com.br'], // Se estiver usando um domínio, adicione aqui
     loader: 'default',
     path: '/_next/image',
@@ -41,7 +42,6 @@ module.exports = withBundleAnalyzer({
         'react-dom': 'preact/compat',
       })
     }
-
     return config
   },
 })
