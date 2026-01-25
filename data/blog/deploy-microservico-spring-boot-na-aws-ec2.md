@@ -158,16 +158,24 @@ chmod 600 ~/.ssh/authorized_keys
 
 ## 6️⃣ GitHub Actions – Secrets Necessários
 
-| Secret                | Descrição                         |
-| --------------------- | --------------------------------- |
-| AWS_ACCESS_KEY_ID     | Credencial AWS (CI)               |
-| AWS_SECRET_ACCESS_KEY | Credencial AWS (CI)               |
-| AWS_REGION            | us-east-1                         |
-| ECR_REGISTRY          | Registry do ECR                   |
-| ECR_REPOSITORY        | URI completa da imagem            |
-| EC2_HOST              | IP público atual da EC2           |
-| EC2_USER              | ec2-user                          |
-| EC2_SSH_KEY           | Conteúdo da chave privada OpenSSH |
+<table>
+  <thead>
+    <tr>
+      <th>Secret</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><code>AWS_ACCESS_KEY_ID</code></td><td>Credencial AWS (CI)</td></tr>
+    <tr><td><code>AWS_SECRET_ACCESS_KEY</code></td><td>Credencial AWS (CI)</td></tr>
+    <tr><td><code>AWS_REGION</code></td><td>us-east-1</td></tr>
+    <tr><td><code>ECR_REGISTRY</code></td><td>Registry do ECR</td></tr>
+    <tr><td><code>ECR_REPOSITORY</code></td><td>URI completa da imagem</td></tr>
+    <tr><td><code>EC2_HOST</code></td><td>IP público atual da EC2</td></tr>
+    <tr><td><code>EC2_USER</code></td><td>ec2-user</td></tr>
+    <tr><td><code>EC2_SSH_KEY</code></td><td>Conteúdo da chave privada OpenSSH</td></tr>
+  </tbody>
+</table>
 
 ⚠️ Se a EC2 for **Stop/Start**, o IP muda. Atualize `EC2_HOST`.
 
